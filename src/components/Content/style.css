@@ -1,0 +1,17 @@
+.contentContainer{
+  position: absolute;
+  top: 337px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 800px;
+  height: 350px;
+  background: linear-gradient(90deg, #6776FF 0%, #80FFDB 117.88%);
+  border: 1px solid #D4D4D4;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
