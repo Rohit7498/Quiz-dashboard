@@ -1,0 +1,18 @@
+input {
+  position: relative;
+  min-width: 304px;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 21px;
+  border-style: none;
+  outline: none;
+}
+
+input:focus {
+  border-style: none;
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: rgba(0, 0, 0, 0.35);
+}

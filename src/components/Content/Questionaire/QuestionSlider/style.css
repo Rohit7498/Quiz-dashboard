@@ -1,0 +1,50 @@
+.questionContainer {
+  position: relative;
+  height: 124px;
+  background: rgba(128, 255, 219, 0.2);
+  padding: 18px 22px;
+  box-sizing: border-box;
+}
+
+
+.question {
+  position: relative;
+  /* rounding of to nearest even number since 1px border */
+  left: 0px;
+
+}
+
+
+.heading {
+  font-size: 14px;
+  line-height: 21px;
+  color: #B3A9A9;
+}
+
+.questionContent {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+
+#slide {
+  position: absolute;
+  left: -100px;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}

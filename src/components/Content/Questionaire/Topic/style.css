@@ -1,0 +1,39 @@
+.topicContainer{
+  position: relative;
+  height: 114px;
+  background: #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.topic {
+  position: absolute;
+  /* rounding of to nearest even number since 1px border */
+  top: 32px;
+  left: 22px;
+}
+
+.heading {
+  font-size: 14px;
+  line-height: 21px;
+  color: #B3A9A9;
+}
+
+.category {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2F2F2F;
+}
+
+
+.timer {
+  position: absolute;
+  width: 90px;
+  height: 46px;
+  top: 32px;
+  /* rounding of to nearest even number since 1px border */
+  right: 28px; 
+  background: rgba(47, 47, 47, 0.36);
+  border-radius: 5px;
+}

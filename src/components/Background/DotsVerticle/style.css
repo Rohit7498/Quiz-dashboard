@@ -1,0 +1,10 @@
+.dotsVertical {
+  position: absolute;
+  width: 727.81px;
+  height: 251px;
+  right: -40px;
+  top: 370px;
+  transform: rotate(-90deg);
+
+  background-color: beige;
+}

@@ -1,0 +1,51 @@
+.statsContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.stats {
+
+  position: absolute;
+  left: 301px;
+  top: 118px;
+  display: flex;
+}
+
+.accuracy {
+  width: 76px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #FFFFFF;
+
+}
+
+.time {
+  width: 86px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 35px;
+}
+
+
+.playAgain {
+  position: absolute;
+  top: 193px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

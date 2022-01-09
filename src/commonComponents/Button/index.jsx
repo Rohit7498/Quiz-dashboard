@@ -10,10 +10,8 @@ function Button(props) {
   } = props;
   
   return (
-    <div className="buttonContainer" onClick={onClick}>
-      <div className="button">
-        <div className="typography">{content}</div>
-      </div>
+    <div className="button" onClick={onClick}>
+      <div className="buttonTypography">{content}</div>
     </div>
   );
 }
